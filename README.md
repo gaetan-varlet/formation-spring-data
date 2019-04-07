@@ -59,3 +59,4 @@
 ## Questions
 
 - objet sur 2 tables avec un join : pb qui fait une requete pour chaque ligne avec un where au lieu d'un join
+- suppression d'un objet et insertion d'un objet avec la même contrainte d'unicité dans une même transaction ne fonctionne pas
