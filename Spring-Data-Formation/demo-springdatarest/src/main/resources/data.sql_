@@ -1,0 +1,2 @@
+insert into country(id, name) values (1, 'France')
+insert into country(id, name) values (2, 'England')
