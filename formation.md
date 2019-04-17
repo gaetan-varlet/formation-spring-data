@@ -4,6 +4,8 @@
     - pb en bidirectionnel des boucles "infinies" (https://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion)
 - faire du critéria avec Spring Data JPA
 
+- configurer plusieurs BDD : https://www.baeldung.com/spring-data-jpa-multiple-databases
+
 - pb que le JOIN ne se fait pas en OneToMany : 
     - solution : @NamedEntityGraph and @EntityGraph ?
     - https://stackoverflow.com/questions/29602386/how-does-the-fetchmode-work-in-spring-data-jpa
