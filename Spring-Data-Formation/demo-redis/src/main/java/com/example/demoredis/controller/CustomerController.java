@@ -1,7 +1,5 @@
 package com.example.demoredis.controller;
 
-import java.util.Optional;
-
 import com.example.demoredis.model.Customer;
 import com.example.demoredis.repository.CustomerRepository;
 

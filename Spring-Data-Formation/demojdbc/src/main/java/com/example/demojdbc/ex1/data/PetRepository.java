@@ -27,7 +27,7 @@ public class PetRepository{
             SqlParameterSource paramSource = new MapSqlParameterSource("id", id);
             return jdbcTemplate.queryForObject(SQL_FIND_BY_ID, paramSource, rowMapper);
         } catch (DataAccessException e) {
-            // TODO propager une exception perso
+            // propager une exception perso
             return null;
         }
     }
